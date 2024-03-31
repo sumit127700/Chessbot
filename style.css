@@ -1,0 +1,39 @@
+body{
+    background: url('./img/Background.jpg');
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.board {
+    width:400px;
+    Border: 10px rgb(97, 0, 0)  solid;
+    opacity:80%;
+   
+}
+.headed{
+    margin:10px;
+    padding:10px;
+    font-size: 30px;
+    margin-bottom:100px;
+    background:rgb(97, 0, 0);
+    color: white;
+    opacity:80%;
+}
+.info {
+    margin:10px;
+    padding:10px;
+    background:rgb(97, 0, 0);
+    color: white;
+    opacity:80%;
+}
+
+.move-history {
+   
+    overflow-y: scroll;
+}
